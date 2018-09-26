@@ -1,0 +1,196 @@
+/* Universal css rules applied to all three pages */
+body {
+    margin: 0;
+    background-image: url('../images/grey_wash_wall.png');
+}
+
+p {
+    line-height: 1.5;
+    color: #777777;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+
+.header-wrap {
+    width: 960px;
+    margin: auto;
+    display: table;
+}
+
+#header-name {
+    width: fit-content;
+    padding: 20px;
+    background: #4aaaa5;
+    display: table-cell;
+    float: left;
+}
+
+.nav-wrap {
+    vertical-align: middle;
+    display: table-cell;
+	text-align: right;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0 20px;
+    color: #777777;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.sliver-divider {
+    border-right: 1px solid #BDC0C1;
+}
+
+.content-wrap {
+    width: 960px;
+    padding: 20px;
+    min-height: 300px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+	margin: 50px auto 150px auto;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Footer is anchors to the bottom of the page with (position: fixed; & bottom: 0;) 
+just like asked in directions */
+footer {
+    background: #666666;
+    text-align: center;
+	width: 100%;
+	position: fixed;
+    bottom: 0;
+    border-top: 7px solid #4aaaa5;
+    color: #cccccc;
+}
+
+.easter-egg {
+	background-image: url('../images/coffeeChat.png');
+	float: left;
+	left: -7px;
+	bottom: -8px;
+    position: relative;
+}
+
+/* Instead of adding in a hover effect, I removed cursor hover change in order to hide a
+link in the footer as an easter egg */
+.easter-egg a {
+	cursor: auto;
+}
+
+.easter-egg img {
+	height: 60px;
+}
+
+/* Using this line-height to center the social media icons in the footer */
+.social-wrapper {
+	line-height: 2.7;
+}
+
+.social-wrapper a {
+	font-size: 24px;
+	color: inherit;
+	/* this works in safari */
+	text-decoration: none;
+	/* this works in chrome */
+	text-decoration-line: none;
+	padding: 0 10px;
+}
+
+
+/* Styles related only to the index.html file */
+.personal-photo {
+    width: 140px;
+    height: 150px;
+    margin: 10px;
+    float: left;
+}
+
+
+/* Styles related only to the contact.html file */
+label {
+    color: #777777;
+    padding: 10px 0;
+    display: block;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #BFBFBF;
+    margin: 5px 0;
+    min-width: 905px;
+}
+
+textarea {
+    min-width: 905px;
+    min-height: 150px;
+    border: 1px solid #dddddd;
+}
+
+button {
+    padding: 9px 22px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 16px;
+	margin-top: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/* Styles related only to the gallery.html file */
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #cccccc;
+    display: inline-flex;
+    flex-grow: 1;
+    margin: 20px;
+}
+
+/* This link in included several times to ensure a new random
+image is served from picsum. I could have used the same class for
+all of these, but then the same image would be served and the page
+doesn't look as good that way. */
+.album1 {
+    background-image: url('https://picsum.photos/250/251/?random');
+}
+
+.album2 {
+    background-image: url('https://picsum.photos/250/250/?random');
+}
+
+.album3 {
+    background-image: url('https://picsum.photos/249/250/?random');
+}
+
+.album4 {
+    background-image: url('https://picsum.photos/251/250/?random');
+}
+
+.album5 {
+    background-image: url('https://picsum.photos/250/249/?random');
+}
