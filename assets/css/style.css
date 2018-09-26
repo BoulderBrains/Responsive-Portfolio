@@ -194,3 +194,19 @@ doesn't look as good that way. */
 .album5 {
     background-image: url('https://picsum.photos/250/249/?random');
 }
+
+/* Media queries to make the pages behave more responsively  */
+
+@media (max-width: 980px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 640px) {
+	header {
+		position: static;
+	}
+}
