@@ -208,5 +208,28 @@ doesn't look as good that way. */
 @media (max-width: 640px) {
 	header {
 		position: static;
+		border-bottom: none;
+	}
+
+	.header-wrap {
+		width: inherit;
+	}
+
+	#header-name {
+		width: 100%;
+    	text-align: center;
+	}
+
+	.nav-wrap {
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+		background-color: white;
+		padding: 20px;
+		border-bottom: 1px solid #cccccc;
+	}
+
+	.content-wrap {
+		width: inherit;
 	}
 }
