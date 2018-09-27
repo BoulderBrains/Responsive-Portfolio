@@ -120,11 +120,11 @@ input {
     padding: 5px;
     border: 1px solid #BFBFBF;
     margin: 5px 0;
-    min-width: 905px;
+    /* min-width: 905px; */
 }
 
 textarea {
-    min-width: 905px;
+    /* min-width: 905px; */
     min-height: 150px;
     border: 1px solid #dddddd;
 }
@@ -223,8 +223,18 @@ doesn't look as good that way. */
 		display: block;
 	}
 
+	/* Portfolio page */
 	.flex-item {
 		display: block;
 		margin: 20px auto;
+	}
+
+	/* Contact page */
+	input {
+		width: 97%;
+	}
+
+	textarea {
+		width: 97%;
 	}
 }
