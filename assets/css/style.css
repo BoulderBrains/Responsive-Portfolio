@@ -141,7 +141,7 @@ button {
 
 /* Styles related only to the gallery.html file */
 .flex-container {
-    display: flex;
+    /* display: flex; */
 }
 
 .flex-item {
@@ -150,7 +150,7 @@ button {
     border: 1px solid #cccccc;
     display: inline-flex;
     flex-grow: 1;
-    margin: 20px;
+    margin: 10px;
 }
 
 /* This link in included several times to ensure a new random
@@ -184,6 +184,7 @@ doesn't look as good that way. */
 }
 
 @media (max-width: 768px) {
+	/* About me page styles */
 	.header-wrap {
 		width: 96%;
 	}
@@ -198,8 +199,14 @@ doesn't look as good that way. */
 		margin: 20px;
 		float: left;
 	}
+
+	/* Portfolio page styles */
+	.flex-container {
+		text-align: center;
+	}
 }
 
+/* Small screen size styles */
 @media (max-width: 640px) {
 	header {
 		position: static;
