@@ -158,23 +158,23 @@ image is served from picsum. I could have used the same class for
 all of these, but then the same image would be served and the page
 doesn't look as good that way. */
 .album1 {
-    background-image: url('https://picsum.photos/250/251/?random');
+    background-image: url('https://picsum.photos/300/351/?random');
 }
 
 .album2 {
-    background-image: url('https://picsum.photos/250/250/?random');
+    background-image: url('https://picsum.photos/350/350/?random');
 }
 
 .album3 {
-    background-image: url('https://picsum.photos/249/250/?random');
+    background-image: url('https://picsum.photos/349/350/?random');
 }
 
 .album4 {
-    background-image: url('https://picsum.photos/251/250/?random');
+    background-image: url('https://picsum.photos/351/350/?random');
 }
 
 .album5 {
-    background-image: url('https://picsum.photos/250/249/?random');
+    background-image: url('https://picsum.photos/350/349/?random');
 }
 
 /* Media queries to make the pages behave more responsively  */
@@ -221,5 +221,10 @@ doesn't look as good that way. */
 		height: 300px;
 		margin: 20px auto;
 		display: block;
+	}
+
+	.flex-item {
+		display: block;
+		margin: 20px auto;
 	}
 }
