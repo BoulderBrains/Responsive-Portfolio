@@ -84,24 +84,6 @@ footer {
     color: #cccccc;
 }
 
-.easter-egg {
-	background-image: url('../images/coffeeChat.png');
-	float: left;
-	left: -7px;
-	bottom: -8px;
-    position: relative;
-}
-
-/* Instead of adding in a hover effect, I removed cursor hover change in order to hide a
-link in the footer as an easter egg */
-.easter-egg a {
-	cursor: auto;
-}
-
-.easter-egg img {
-	height: 60px;
-}
-
 /* Using this line-height to center the social media icons in the footer */
 .social-wrapper {
 	line-height: 2.7;
@@ -122,8 +104,8 @@ link in the footer as an easter egg */
 .personal-photo {
     width: 140px;
     height: 150px;
-    margin: 10px;
-    float: left;
+	margin: 10px;
+    /* float: left; */
 }
 
 
@@ -212,12 +194,13 @@ doesn't look as good that way. */
 	}
 
 	.header-wrap {
-		width: inherit;
+		width: 100%;
 	}
 
 	#header-name {
 		width: 100%;
-    	text-align: center;
+		text-align: center;
+		padding: 20px 0;
 	}
 
 	.nav-wrap {
@@ -225,11 +208,18 @@ doesn't look as good that way. */
 		text-align: center;
 		width: 100%;
 		background-color: white;
-		padding: 20px;
+		padding: 20px 0;
 		border-bottom: 1px solid #cccccc;
 	}
 
 	.content-wrap {
-		width: inherit;
+		width: 90%;
+	}
+
+	.personal-photo {
+		width: 280px;
+		height: 300px;
+		margin: 20px auto;
+		display: block;
 	}
 }
