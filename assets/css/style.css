@@ -141,7 +141,7 @@ button {
 
 /* Styles related only to the gallery.html file */
 .flex-container {
-    /* display: flex; */
+    text-align: center;
 }
 
 .flex-item {
