@@ -15,7 +15,7 @@ header {
 }
 
 .header-wrap {
-    width: 960px;
+    /* width: 960px; */
     margin: auto;
     display: table;
 }
@@ -184,7 +184,20 @@ doesn't look as good that way. */
 }
 
 @media (max-width: 768px) {
+	.header-wrap {
+		width: 96%;
+	}
 
+	.content-wrap {
+		width: 96%;
+	}
+
+	.personal-photo {
+		width: 280px;
+		height: 300px;
+		margin: 20px;
+		float: left;
+	}
 }
 
 @media (max-width: 640px) {
