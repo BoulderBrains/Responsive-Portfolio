@@ -119,12 +119,12 @@ label {
 input {
     padding: 5px;
     border: 1px solid #BFBFBF;
-    margin: 5px 0;
-    /* min-width: 905px; */
+	margin: 5px 0;
+	width: 98%;
 }
 
 textarea {
-    /* min-width: 905px; */
+	width: 98%;
     min-height: 150px;
     border: 1px solid #dddddd;
 }
@@ -191,6 +191,7 @@ doesn't look as good that way. */
 
 	.content-wrap {
 		width: 96%;
+		margin: 40px auto 150px auto;
 	}
 
 	.personal-photo {
@@ -247,6 +248,7 @@ doesn't look as good that way. */
 		height: 300px;
 		margin: 20px auto;
 		display: block;
+		float: none;
 	}
 
 	/* Portfolio page */
