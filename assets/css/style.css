@@ -188,6 +188,7 @@ doesn't look as good that way. */
 	}
 }
 
+/* Medium screen size styles */
 @media (max-width: 768px) {
 	/* About me page styles */
 	.header-wrap {
