@@ -1,4 +1,7 @@
-/* Universal css rules applied to all three pages */
+/* Universal css rules applied to all three pages 
+for screen sizes 981px and larger as well as some 
+universal styles that are applied across all 3 screen 
+sizes and not overridden in other media queries */
 body {
     margin: 0;
     background-image: url('../images/grey_wash_wall.png');
@@ -51,7 +54,7 @@ header {
 }
 
 .content-wrap {
-    width: 60%;
+    width: 90%;
     padding: 20px;
     min-height: 300px;
     background: #ffffff;
@@ -72,8 +75,7 @@ h2 {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-/* Footer is anchors to the bottom of the page with (position: fixed; & bottom: 0;) 
-just like asked in directions */
+/* Footer is anchored to the bottom of the page with (position: fixed; & bottom: 0;) */
 footer {
     background: #666666;
     text-align: center;
@@ -138,7 +140,6 @@ button {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-
 /* Styles related only to the gallery.html file */
 .flex-container {
     text-align: center;
@@ -179,8 +180,12 @@ doesn't look as good that way. */
 
 /* Media queries to make the pages behave more responsively  */
 
+/* Large screen size styles */
 @media (max-width: 980px) {
 
+	.content-wrap {
+		width: 60%;
+	}
 }
 
 @media (max-width: 768px) {
